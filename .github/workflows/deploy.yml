@@ -22,4 +22,4 @@ jobs:
                   script: |
                       cd /home/dean-cloud/gii/kursi-roda/kursi-roda-flask
                       git pull origin main
-                      npm install
+                      pip install -r requirements.txt
